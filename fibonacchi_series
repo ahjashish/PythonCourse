@@ -1,0 +1,10 @@
+num = int(input(" Enter how many terms: "))
+
+n = 0
+m = 1
+ 
+for i in range(num):
+  print(n)
+  nm = n
+  n  = m
+  m  = nm + m
