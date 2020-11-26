@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Mayank",
+    "content": "Hi Mayank"
+  },
+  ....200
+  {
+    "name": "Surya",
+    "content": "Hi Mayank"
+  }
+]
+
+dict[
+  "Surya"
+] = {
+  "name": "Mayank",
+  "content": "Hi Mayank"
+},
+
+[
+0 [
+"Mayank",
+"Hi Mayank"
+],
+1 [
+"Ashish",
+"Hi Mayank"
+],
+....
+1000000000000 [
+"Surya",
+"Hi Mayank"
+]
+]
+
+name = for i in range(len(list)):
+if(list[i][0]) == name:
+  return list[i][1]

@@ -1,0 +1,50 @@
+Encapsulation - to be able to bundle together related properties and behaviour
+Abstraction - Public interface, but hiding the details behind the interface
+Polymorphism - HD, Full HD, Ultra HD
+Inheritance - Vehicle -> Bike, Car, Truck -> Seats, Wheels, It can move, engine, travel
+
+Bike -> 2 wheels, linear shape bicycle
+
+Car -> 4 wheels, box like shape
+ -> Hatchback
+ -> SUV
+ -> Convertible - 2
+
+class DiceGame():
+
+    def __init__(self, players):
+        #State / Properties
+        self.players = players
+
+    # Behaviour
+    def roll_dice_and_sum(self, player, total, 3):
+        for i in range(turns):
+            dice1 = random.range(1,7)
+            dice2 = random.range(1,7)
+            total += dice1 + dice2
+
+        return total
+
+    def check_winner_or_looser(player, total):
+        if total >= 25:
+            print(f"{player.name}, you are winner")
+        else:
+            print(f"{player.name}, you are looser")
+
+    def restart():
+        self.players = None
+        pass
+
+
+    def play_game(self, player):
+        print(f"{player1.name} has scored a total of {roll_dice_and_sum(player1, total1)}")
+        print(check_winner_or_looser(player1, total1))
+
+
+
+my_game = FreeFire()
+for player in my_game.players:
+    my_game.play_game(player)
+
+
+
